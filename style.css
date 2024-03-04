@@ -17,5 +17,98 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  padding: 20px;
+  margin: 0;
+  width: 400px;
+}
+/*----------------------*/
+div {
+  margin: 0;
+  padding: 0;
 }
 
+/*
+.hlavicka {
+  position: relative;
+  width: 300px;
+  }
+*/
+
+.profil {
+  position: relative;
+  width: 300px;
+  background-color: #31363b;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+.foto {
+  position: static;
+  width: 300px;
+  overflow: auto;
+  margin: 0;
+}
+
+
+
+.logo {
+  position: relative;
+  background-color: #b92e81;
+  width: auto;
+  border-radius: 50%;
+  left: 220px;
+  bottom: 30px;
+  
+}
+
+.obsah {
+ padding: 0px 20px;
+ margin: 0;
+
+}
+/*Odkazy*/
+
+li {
+  display: inline-block;
+}
+
+ul {
+height: 100px;
+}
+
+.portfolio {
+position: relative;
+  text-align: center;
+  border-bottom: solid 1px #3f464d;
+  height: 50px;
+  width: 300px;
+  border-bottom: solid 1px #3f464d;
+  border-top: solid 1px #3f464d;
+  padding-top: 15px;
+}
+
+.facebook {
+  position: relative;
+  top: 15px;
+  width: 75px;
+  padding-right: 50px;
+  height: 49px;
+  text-align: center;
+  }
+
+.twitter {
+  position: relative;
+  top: 15px;
+  width: 75px;
+  padding-left: 50px;
+  height: 49px;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-variant: small-caps;
+}
