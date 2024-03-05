@@ -14,7 +14,6 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
 .source-sans-3-Hanka {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
@@ -36,64 +35,60 @@ h1 {
   font-style: normal;
 }
 
-
-
-
 body {
+  width: auto;
+  height: auto;
   background-color: #bdc3c7;
-  padding: 20px;
-  margin: 0;
-  width: 400px;
-}
+  margin: 20px;
+  }
 /*----------------------*/
-div {
-  margin: 0;
-  padding: 0;
-}
 
-/*
 .hlavicka {
   position: relative;
-  width: 300px;
-  }
-*/
+  width: 400px;
+  margin: 0;
+}
+
+p {
+  clear: both;
+}
 
 .profil {
   position: relative;
-  width: 300px;
+  width: 400px;
+  height: auto;
   background-color: #31363b;
   color: white;
   text-align: left;
   margin: 0;
+  box-shadow: 3px 5px 10px  gray;
 }
 
 .foto {
   position: static;
-  width: 300px;
+  width: 400px;
   overflow: auto;
   margin: 0;
 }
 
-
-
 .logo {
   position: relative;
   background-color: #b92e81;
-  width: auto;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  left: 220px;
-  bottom: 30px;
-  
+  left: -50px;
+  bottom: 40px;
+  float: right;
 }
 
 .obsah {
- padding: 0px 20px;
- margin: 0;
-   font-family: "Source Sans 3", sans-serif;
+  padding: 0 20px 40px 20px;
+  font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+ }
 /*Odkazy*/
 
 li {
@@ -102,45 +97,65 @@ li {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-
 }
 
-ul {
-height: 100px;
+.odkazy {
+height: 102px;
+width: 400px;
+padding: 0px;
+margin: 0px;
+font-variant: small-caps;
+font-size: 20px;
+letter-spacing: 1.5px;
+text-align: center;
 }
 
 .portfolio {
-position: relative;
-  text-align: center;
-  border-bottom: solid 1px #3f464d;
-  height: 50px;
-  width: 300px;
+  position: relative;
+  height: 52px;
+  width: 400px;
   border-bottom: solid 1px #3f464d;
   border-top: solid 1px #3f464d;
-  padding-top: 15px;
 }
 
 .facebook {
   position: relative;
-  top: 15px;
-  width: 75px;
-  padding-right: 50px;
-  height: 49px;
+  height: 50px;
+  width: 200px;
   text-align: center;
+  border-right: solid 0.5px #3f464d;
   }
 
 .twitter {
   position: relative;
-  top: 15px;
-  width: 75px;
-  padding-left: 50px;
-  height: 49px;
+  height: 50px;
+  width: 200px;
   text-align: center;
-}
+  border-left: solid 0.5px #3f464d;
+  }
 
 a {
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-variant: small-caps;
+  height: 50px;
+  width: 200px;
+  padding-top: 10px;
 }
+  
+.twitter a:hover {
+background-color: #1da1f2;
+height: 50px;
+width: 200px;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+  height: 50px;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+  width: 400px;
+}
+
