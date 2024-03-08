@@ -37,7 +37,7 @@ h1 {
 /*-----------------Body - svetle seda barva-----------------*/
 
 body {
-  position: relative;
+  /*position: relative;*/
   width: auto;
   height: auto;
   background-color: #bdc3c7;
@@ -54,7 +54,6 @@ body {
 }
 
 .profil {
-  position: relative;
   width: 400px;
   height: auto;
   background-color: #31363b;
@@ -66,29 +65,34 @@ body {
 }
 
 .foto {
+  position: static;
+  float: left;
   width: 400px;
-  overflow: auto;
   margin: 0;
   padding: 0;
 }
 
 .combo {
-position: relative;
-width: 80px;
-height: 80px;
 border-radius: 50%;
 z-index: 10;
-left: 260px;
-bottom: 40px;
+/*position: relative;
 clear: both;
+width: auto;
+text-align: right;*/
+
+
+/*left: 260px;
+bottom: 40px;*/
 }
 
 .logo {
   position: absolute;
   background-color: #b92e81;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  right: 15px;
+  bottom: 0px;
 }
 
 a:visited {
